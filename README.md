@@ -4,18 +4,17 @@ Boiler plate code for setting up a React configuration using Webpack.
 
 To start the app, run `npm run start`.
 
+Sources
+- [https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/](https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/)
+- [https://www.taniarascia.com/how-to-use-webpack/](https://www.taniarascia.com/how-to-use-webpack/)
+
 ## Tools
 
 - Webpack 5
 - Babel 7
+- Sass Loader
 - Prettier
-- Adding source maps for error logs
 - ESLint
-
-Sources
-
-- [https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/](https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/)
-- [https://www.taniarascia.com/how-to-use-webpack/](https://www.taniarascia.com/how-to-use-webpack/)
 
 ### Webpack
 
@@ -38,7 +37,8 @@ or
 
 Run `npm run format` in the project.
 
-**NOTE**: [When using Prettier and ESLint together, you shouldn't be using ESLint's indent rule at all...](https://github.com/eslint/eslint/issues/10930#issuecomment-427690631)
+**NOTE**:
+- [When using Prettier and ESLint together, you shouldn't be using ESLint's indent rule at all...](https://github.com/eslint/eslint/issues/10930#issuecomment-427690631)
 
 ### ESLint
 
