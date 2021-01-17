@@ -5,6 +5,7 @@ Boiler plate code for setting up a React configuration using Webpack.
 To start the app, run `npm run start`.
 
 Sources
+
 - [https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/](https://www.freecodecamp.org/news/how-to-set-up-deploy-your-react-app-from-scratch-using-webpack-and-babel-a669891033d4/)
 - [https://www.taniarascia.com/how-to-use-webpack/](https://www.taniarascia.com/how-to-use-webpack/)
 
@@ -38,6 +39,7 @@ or
 Run `npm run format` in the project.
 
 **NOTE**:
+
 - [When using Prettier and ESLint together, you shouldn't be using ESLint's indent rule at all...](https://github.com/eslint/eslint/issues/10930#issuecomment-427690631)
 
 ### ESLint
@@ -47,3 +49,10 @@ Run `npm run format` in the project.
 - `babel-eslint` is a parser that enables eslint to lint all valid ES6+ code (for React and ES6+ syntax)
 - `eslint-config-react` enables ESLint to use pre-made rules
 - `eslint-plugin-react` enables ESLint to use pre-made rules
+
+### Commands
+
+| Command         | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| `npm run dev`   | Runs a development build and spins up webpack dev server |
+| `npm run build` | Runs a production build                                  |

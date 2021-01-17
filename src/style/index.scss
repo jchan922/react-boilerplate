@@ -1,6 +1,5 @@
+@import 'reset';
 @import 'colors';
-
-body {
-	background-color: $white;
-	color: $black;
-}
+@import 'fonts';
+@import 'typography';
+@import 'main';
