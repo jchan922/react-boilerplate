@@ -5,10 +5,10 @@ const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const DIST_DIR = path.join(__dirname, '../dist');
+const DIST_DIR = path.join(__dirname, '../../dist');
 const HTML_FILE = path.join(DIST_DIR, 'index.html');
 
-const config = require('./webpack.dev.js');
+const config = require('../../build-utils/webpack.dev.js');
 const compiler = webpack(config);
 
 // Tell express to use the webpack-dev-middleware for webpack.dev.js
