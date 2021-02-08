@@ -1,1 +1,10 @@
-$primaryFontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+@mixin fontFace($fontFamily, $src, $fontWeight: 400, $fontStyle: normal) {
+  @font-face {
+    font-family: #{$fontFamily};
+    src: #{url($src)} format('truetype');
+    font-weight: #{$fontWeight};
+    font-style: #{$fontStyle};
+  }
+}
+
+$primaryFontFamily: -apple-system,BlinkMacSystemFont,Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;

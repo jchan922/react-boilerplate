@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -13,6 +12,7 @@ module.exports = {
 		// put output of bundling process here
 		path: path.resolve(__dirname, '../dist'),
 		filename: '[name].bundle.js',
+		publicPath: '/'
 	},
 	module: {
 		rules: [
@@ -55,6 +55,5 @@ module.exports = {
 			template: path.resolve(__dirname, '../src/index.html'),
 		}),
 		new MiniCssExtractPlugin(),
-		new webpack.HotModuleReplacementPlugin(),
-	],
+	]
 };
